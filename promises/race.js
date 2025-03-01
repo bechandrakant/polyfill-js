@@ -24,7 +24,7 @@ let p4 = new Promise((resolve, reject) => {
   setTimeout(() => reject("P4 rejected"), 1000);
 });
 
-// All resolved scenario
+// First resolved scenario
 Promise.race([p1, p2, p3]).then((res) => console.log(res));
 
 Promise.myRace([p1, p2, p3]).then((res) => console.log(res));
