@@ -13,6 +13,12 @@
     - Returns resolved value of first resolved promise.
     - Returns AggregateError if all promise fails.
 
+- [x] **Functions**
+
+  - [x] **call**
+  - [x] **apply**
+  - [x] **bind**
+
 - [ ] **Arrays**
 
   - [ ] **Static methods**

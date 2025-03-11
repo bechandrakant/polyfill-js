@@ -1,5 +1,6 @@
 Array.prototype.myAt = function (index) {
-  return index >= 0 ? this[index] : this[this.length + index];
+  let array = this;
+  return index >= 0 ? array[index] : array[array.length + index];
 };
 
 const input = [5, 12, 8, 130, 44];
